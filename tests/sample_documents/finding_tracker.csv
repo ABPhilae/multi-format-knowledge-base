@@ -1,0 +1,8 @@
+"Region,Finding ID,Finding Type,Severity,Description,Owner,Deadline,Status"
+"Hong Kong,HK-001,Trade Reconciliation,Critical,Insufficient trade reconciliation controls,Li Wei,2026-03-31,In Progress"
+"Hong Kong,HK-002,AML Controls,Critical,Outdated AML screening parameters,Li Wei,2026-03-31,In Progress"
+"Hong Kong,HK-003,Technology Risk,Significant,Framework gaps in cloud services,Tech Risk Team,2026-06-30,Pending"
+"Hong Kong,HK-004,Data Governance,Significant,Incomplete data classification,Data Team,2026-06-30,Pending"
+"Hong Kong,HK-005,Operational Risk,Minor,Manual process dependencies,Operations,2026-09-30,Pending"
+"Singapore,SG-001,Technology Controls,Significant,Inadequate API security testing,SG Tech Team,2026-06-30,In Progress"
+"Singapore,SG-002,Data Governance,Significant,Cross-border data transfer gaps,SG Compliance,2026-06-30,Pending"

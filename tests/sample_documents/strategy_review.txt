@@ -1,0 +1,37 @@
+Q3 Strategy Review — Annual Risk Committee Presentation
+
+Slide 1: Title
+Q3 2025 APAC Strategy Review
+Presented to the Risk Committee
+October 2025
+
+Slide 2: Digital Transformation Progress
+Key initiatives on track:
+- Automated reconciliation platform: 60% complete
+- Real-time compliance monitoring: pilot in Singapore
+- AI-powered document analysis: Phase 2 deployed
+[Speaker Notes] Digital transformation timeline has been accelerated by 6 months based on board directive.
+
+Slide 3: Risk Appetite Adjustments
+Risk appetite framework updated for 2026:
+- Credit risk: maintained at current levels
+- Operational risk: increased monitoring frequency
+- Technology risk: new controls for cloud and API dependencies
+[Speaker Notes] Key decision: Increase compliance technology budget by 20% for 2026.
+
+Slide 4: Regulatory Changes in APAC
+Upcoming regulatory changes:
+- HKMA enhanced transaction reporting (effective Q2 2026)
+- MAS updated data residency requirements
+- APAC-wide AML harmonisation initiative
+[Speaker Notes] Expected regulatory changes include enhanced cross-border transaction reporting requirements and updated data residency rules for financial institutions.
+
+Slide 5: Key Decisions
+1. Accelerate digital transformation timeline by 6 months
+2. Increase compliance technology budget by 20%
+3. Establish quarterly APAC risk reviews
+4. Prioritize HK trade reconciliation remediation
+
+Slide 6: AML Compliance Update
+AML Compliance Policy v3.2 currently in effect alongside APAC Data Privacy Framework.
+All staff must complete AML refresher training by Q2 2026.

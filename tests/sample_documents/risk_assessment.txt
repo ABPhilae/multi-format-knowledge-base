@@ -1,0 +1,64 @@
+H1 2025 Risk Assessment — APAC Region
+
+Executive Summary
+
+This document presents the H1 2025 risk assessment for BNP Paribas Internal Audit APAC operations. The overall APAC risk rating is Elevated, up from Moderate in the previous assessment, primarily driven by increased regulatory scrutiny and trade reconciliation gaps.
+
+Critical Findings
+
+Finding 1: Insufficient trade reconciliation controls in Hong Kong
+- Severity: Critical
+- Owner: Li Wei
+- Deadline: March 31, 2026
+- Description: The Trade Reconciliation System (TRS) has not been updated since 2023 and does not support the latest cross-border transaction formats required by HKMA.
+
+Finding 2: Outdated AML screening parameters
+- Severity: Critical
+- Owner: Li Wei
+- Deadline: March 31, 2026
+- Description: The AML Screening Engine v4.1 uses parameters last calibrated in Q2 2024. Updated screening rules from FATF are not yet implemented.
+
+Finding 3: Technology risk assessment framework gaps
+- Severity: Significant
+- Owner: Regional Technology Risk Team
+- Deadline: June 30, 2026
+- Description: The current technology risk framework does not adequately cover cloud services and third-party API dependencies.
+
+Regional Summary
+
+Hong Kong: 3 critical findings, 2 significant findings. Primary risks in trade reconciliation and AML controls.
+Singapore: 2 significant findings. Primary risks in technology controls and data governance.
+
+Remediation Progress
+
+Completed: AML parameter update for Singapore (December 2024)
+Completed: Initial technology risk assessment framework review (January 2025)
+In Progress: Trade Reconciliation System upgrade (HK)
+Pending: Regional Compliance Dashboard development
+
+Budget Allocation
+
+Total remediation budget: HKD 2.5 million
+- Technology upgrades: HKD 1.5 million
+- Process improvements: HKD 1.0 million
+
+Technology Systems Referenced
+
+- Trade Reconciliation System (TRS)
+- AML Screening Engine v4.1
+- Regional Compliance Dashboard (in development)
+
+Regulatory Outlook 2026
+
+Expected regulatory changes include enhanced cross-border transaction reporting requirements and updated data residency rules for financial institutions.
+
+Training Programs
+
+- AML refresher training: mandatory completion by Q2 2026
+- New compliance monitoring tools training: scheduled Q1 2026
+- Cross-border regulation awareness workshops: quarterly starting Q1 2026
+
+Next Steps
+
+The next audit committee meeting is scheduled for April 15, 2026.
+Quarterly APAC risk reviews to be established starting Q2 2026.
