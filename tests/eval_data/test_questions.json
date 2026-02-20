@@ -1,0 +1,105 @@
+{
+    "description": "Test questions for RAGAS evaluation of the Multi-Format Knowledge Base",
+    "questions": [
+        {
+            "question": "What are the critical findings mentioned in the risk assessment?",
+            "ground_truth": "The critical findings include insufficient trade reconciliation controls in Hong Kong and outdated AML screening parameters.",
+            "category": "factual"
+        },
+        {
+            "question": "What is the deadline for remediating the critical findings?",
+            "ground_truth": "Critical findings must be remediated by March 31, 2026.",
+            "category": "factual"
+        },
+        {
+            "question": "Which regions have the most audit findings?",
+            "ground_truth": "Hong Kong has the most findings with 3 critical and 2 significant, followed by Singapore with 2 significant findings.",
+            "category": "factual"
+        },
+        {
+            "question": "What was discussed in the Q3 strategy review presentation?",
+            "ground_truth": "The Q3 strategy review covered digital transformation progress, risk appetite adjustments, and regulatory changes in APAC markets.",
+            "category": "factual"
+        },
+        {
+            "question": "What compliance policies are currently in effect?",
+            "ground_truth": "The AML Compliance Policy v3.2 and the APAC Data Privacy Framework are currently in effect.",
+            "category": "factual"
+        },
+        {
+            "question": "Who is responsible for the Hong Kong audit findings?",
+            "ground_truth": "Li Wei is the lead auditor responsible for Hong Kong findings remediation.",
+            "category": "factual"
+        },
+        {
+            "question": "What types of documents have been uploaded to the system?",
+            "ground_truth": "The system contains PDF audit reports, Word risk assessments, Excel finding trackers, and PowerPoint strategy reviews.",
+            "category": "meta"
+        },
+        {
+            "question": "How many sheets does the finding tracker spreadsheet contain?",
+            "ground_truth": "The finding tracker contains 3 sheets: Summary, Regional Findings, and Remediation Timeline.",
+            "category": "structural"
+        },
+        {
+            "question": "Compare the risk levels between Hong Kong and Singapore.",
+            "ground_truth": "Hong Kong has a higher overall risk level with 3 critical findings versus Singapore's 2 significant findings. Hong Kong's primary risks are in trade reconciliation while Singapore's are in technology controls.",
+            "category": "comparative"
+        },
+        {
+            "question": "What are the main recommendations from the audit report?",
+            "ground_truth": "The main recommendations are: implement automated reconciliation tools, update AML screening parameters quarterly, and establish a regional compliance monitoring dashboard.",
+            "category": "synthesis"
+        },
+        {
+            "question": "What remediation steps have been completed so far?",
+            "ground_truth": "Two remediation steps have been completed: the AML parameter update for Singapore and the initial technology risk assessment framework review.",
+            "category": "factual"
+        },
+        {
+            "question": "What is the budget allocated for the remediation program?",
+            "ground_truth": "The total remediation budget is HKD 2.5 million, split between technology upgrades (HKD 1.5M) and process improvements (HKD 1M).",
+            "category": "factual"
+        },
+        {
+            "question": "What regulatory changes are expected in APAC for 2026?",
+            "ground_truth": "Expected regulatory changes include enhanced cross-border transaction reporting requirements and updated data residency rules for financial institutions.",
+            "category": "factual"
+        },
+        {
+            "question": "What technology systems are mentioned in the risk assessment?",
+            "ground_truth": "The risk assessment mentions the Trade Reconciliation System (TRS), AML Screening Engine v4.1, and the Regional Compliance Dashboard (in development).",
+            "category": "factual"
+        },
+        {
+            "question": "What were the key decisions from the strategy review?",
+            "ground_truth": "Key decisions include accelerating digital transformation timeline by 6 months, increasing compliance technology budget by 20%, and establishing quarterly APAC risk reviews.",
+            "category": "synthesis"
+        },
+        {
+            "question": "When is the next audit committee meeting?",
+            "ground_truth": "The next audit committee meeting is scheduled for April 15, 2026.",
+            "category": "factual"
+        },
+        {
+            "question": "What training programs are mentioned for staff?",
+            "ground_truth": "Staff training programs include AML refresher training (mandatory by Q2 2026), new compliance monitoring tools training, and cross-border regulation awareness workshops.",
+            "category": "factual"
+        },
+        {
+            "question": "How does the finding tracker categorize severity levels?",
+            "ground_truth": "The tracker uses three severity levels: Critical (immediate action required), Significant (action within 90 days), and Minor (action within 180 days).",
+            "category": "structural"
+        },
+        {
+            "question": "What is the overall risk rating for the APAC region?",
+            "ground_truth": "The overall APAC risk rating is Elevated, up from Moderate in the previous assessment, primarily driven by increased regulatory scrutiny and trade reconciliation gaps.",
+            "category": "factual"
+        },
+        {
+            "question": "Summarize the main themes across all uploaded documents.",
+            "ground_truth": "The main themes are: regulatory compliance gaps in APAC (especially HK), need for technology modernization in audit processes, increasing focus on AML controls, and a strategic push for digital transformation with dedicated budget allocation.",
+            "category": "synthesis"
+        }
+    ]
+}
