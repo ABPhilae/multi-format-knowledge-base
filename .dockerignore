@@ -1,0 +1,13 @@
+# Don't copy these into the Docker image
+__pycache__
+*.pyc
+.env
+.git
+.gitignore
+venv/
+.venv/
+.vscode/
+.idea/
+*.md
+docs/
+.pytest_cache/
