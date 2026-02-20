@@ -1,0 +1,14 @@
+# Dockerfile.frontend — Streamlit frontend
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# Install Streamlit and requests
+RUN pip install --no-cache-dir streamlit==1.41.0 requests==2.32.0
+
+# Copy frontend code
+COPY frontend/ frontend/
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "frontend/app.py", "--server.port=8501", "--server.address=0.0.0.0"]

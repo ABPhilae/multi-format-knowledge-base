@@ -1,0 +1,54 @@
+# docker-compose.yml — 4-service architecture
+# Run with: docker-compose up --build
+
+version: "3.8"
+
+services:
+  # === Service 1: FastAPI Backend ===
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - COHERE_API_KEY=${COHERE_API_KEY}
+      - QDRANT_HOST=qdrant
+      - REDIS_HOST=redis
+    depends_on:
+      - qdrant
+      - redis
+    volumes:
+      - ./data/uploads:/app/data/uploads
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # === Service 2: Streamlit Frontend ===
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://api:8000
+    depends_on:
+      - api
+
+  # === Service 3: Qdrant Vector Database ===
+  qdrant:
+    image: qdrant/qdrant:v1.12.1
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./data/qdrant_storage:/qdrant/storage
+
+  # === Service 4: Redis (Semantic Cache) ===
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
